@@ -10,13 +10,44 @@
 
     <Button
         android:id="@+id/btnShowToast"
-        android:layout_width="98dp"
-        android:layout_height="51dp"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="137dp"
-        android:text="Show Toast" />
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="158dp"
+        android:text="ShowToast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etUserMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="-8dp"
+        android:ems="10"
+        android:hint="Enter your Message"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSendMsgToNextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="265dp"
+        android:text="Send Data to Next Activity" />
+
+
 </RelativeLayout>
