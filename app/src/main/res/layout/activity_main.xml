@@ -3,17 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnShowToast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="178dp"
-        android:layout_marginEnd="147dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="521dp"
         android:text="Show Toast" />
 
     <EditText
@@ -42,15 +43,18 @@
         android:id="@+id/btnShareToOtherApps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnSendMsgToNextActivity"
-        android:layout_alignParentStart="false"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="false"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="320dp"
         android:text="Share to other apps" />
 
-
+    <Button
+        android:id="@+id/btnRecyclerViewDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:text="Recycler View Demo" />
 </RelativeLayout>
